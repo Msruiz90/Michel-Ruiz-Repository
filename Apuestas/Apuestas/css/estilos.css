@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	background: #fff url("../img/estadio.jpg") no-repeat fixed  center;
+	color: #000;
+	font-family:  Arial, Helvetica;
+	font-size: 0.9em;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 0 65px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+button{
+	background: #262626 ;
+	width: 40%;;
+	border-radius: 0.25em 0.25em;
+	color: #fff;
+	font-size: "Century Gothic";
+	font-size: 1.25em;
+	padding: .25em;
+	box-shadow:6px 6px 10px #000;
+}
+
+button:hover {
+	background: #0d208f;
+	border-radius: 0.25em 0.25em;
+	cursor: pointer;
+	color: #ffe400;
+}
+
+/**/
+
+section#menu{
+	margin: 0.4em; auto
+	width: 90%;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+div#uno{
+	background-color: #273ff7;
+}
+
+div#dos{
+	background-color: #6274f8;
+}
+
+div#tres{
+	background-color: #a1abf9;
+}
+
+div#cuatro{
+	background-color: #bcc4f9;
+}
+
+section#contenedor1{
+	margin: 0.5em auto;
+	max-width: 95%;
+	padding: 0;
+	text-align: center;
+	background: rgba(0,0,0,.8);
+}
+
+section#galeria,  aside{
+	background: #f1f1f1;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.25em auto;
+	padding: 0.25em;
+	vertical-align: top;
+	max-width: 95%;
+	min-height: 210px;
+	width: 80%
+}
+
+section#galeria1{
+	background: #4e8d4e url("../img/plantado-del-cesped-04.jpg");
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.25em auto;
+	padding: 0.25em;
+	vertical-align: top;
+	max-width: 95%;
+	min-height: 210px;
+	width: 80%;
+	margin-top:8px;
+}
+
+aside{
+	width: 25%;
+
+}
+
+article{
+	background: #fff;
+	border-radius:10px  10px 10px 10px;
+	width: 95%;
+	margin-left: 33px;
+	height: 100px;
+
+}
+
+input[type="email"], input[type="text"], input[type="password"],input[type="number"],input[type="date"],input[type="time"],select{
+	background: #EEE;
+	border-radius: .25em;
+	color: #212121;
+	font-size: 1em;
+	padding: .20em;
+	width: 90%;
+}
+
+
+section#galeria{
+	width: 55%;
+}
+
+
+section#contacto3{
+	background: #fff;
+	border-radius: .5em;
+	margin-left: 17em;
+	min-height: 144px;
+	padding: .5em;
+	font-size: 1.5em;
+	width: 40%;
+	min-width: 20%;
+
+}
+
+section#contenedor2{
+	margin: 0.5em auto;
+	max-width: 95%;
+	padding: 0;
+	height: 440px;
+	background: rgba(0,0,0,.8);
+	min-width: 900px;
+}
+
+#entrar{
+	display: inline-block;
+}
+
+/*class*/
+
+div.contenedor{
+	width: 170px;
+	height: 130px;
+	/*float:left;*/  display: inline-block;
+	-webkit-transition: height .4s;
+	-o-transition: height .4s;
+	-moz-transition: height .4s;
+	margin-bottom: 1em;
+}
+
+img.icono{
+	display: block;
+	margin:20px auto; /* 2.5em auto*/
+	background-color: rgba(255,255,255,0.15);
+	width:30px;
+	padding:12px; /*2.5em*/
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0); /*#fff*/
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.1em;
+	color:#000;
+	padding-top:5px;
+	text-align: center;
+	-webkit-transition: padding-top .4s;
+}
+
+
+div.contenedor:hover img.icono{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+div.equipo1{
+	width: 30%;
+	height: 130px;
+	display: inline-block;
+}
+
+.iniciar1{
+	color: #fff;
+	font-size: 2.4em;
+	text-align: center;
+
+}
+
+.logoinicio{
+	text-align: center;
+
+}
+
+.logoinicio1{
+	width: 20%;
+	height: 110px;
+}
