@@ -103,7 +103,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 --
 
 INSERT INTO `usuario` (`id_usuario`, `nombre`, `imagen`, `total`, `clave`) VALUES
-('tiflas', 'Alexis', 'adidas.jpg', '0', '123');
+('msruiz', 'Stefan', 'adidas.jpg', '0', '123');
 
 --
 -- Índices para tablas volcadas
