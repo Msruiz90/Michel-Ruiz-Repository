@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tu peso en otro planeta</title>
+  </head>
+  <body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas diferente que en Marte o Jupiter</p>
+    <script type="text/javascript">
+      var usuario = prompt("¿Cual es tu peso?");
+      var peso = parseInt(usuario);
+      var g_tierra = 9.8;
+      var g_marte = 3.7;
+      var g_jupiter = 24.8;
+      var peso = 83;
+      var peso_final;
+      peso_final = peso * g_marte / g_tierra;
+      peso_final = parseInt(peso_final);
+      document.write("Tu peso en martes es <strong>" + peso_final + "kilos</<strong>");
+    </script>
+  </body>
+</html>
+
+<!--parseInt me quita los decimales-->
+<!--parseInt me conviverite el texto que obtive del prompt a número-->
+<!--parseFloat me conviverite el texto que obtive del prompt a número-->

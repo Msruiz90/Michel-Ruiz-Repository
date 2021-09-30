@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dibujando con canvas</title>
+  </head>
+  <body>
+    <h1>Dibujo en canvas</h1>
+    <p>¿Cuántas líneas quieres?
+      <br />
+      <br />
+    <label>Número de líneas </label> <input type="text"maxlength="2"onkeypress="return keyPressValidation(event)"id="texto_lineas" />
+    <br />
+    <br />
+    <label>Número de iteraciones </label><input type="text"maxlength="2"onkeypress="return keyPressValidation(event)"id="iterar" />
+    <br />
+    <br />
+    <label>Pixeles min 300 máx 1000 </label><input type="range"min="300"max="1000"value="300"list="range_datalist"id="rango"/>
+    <br />
+    <br />
+    <input type="button" value="Dibujar" id="boton"/>
+    <input type="button" value="Recargar" id="refresh"/>
+    <datalist id="range_datalist">
+      <option value="300">300</option>
+      <option value="400">400</option>
+      <option value="500">500</option>
+      <option value="600">600</option>
+      <option value="700">700</option>
+      <option value="800">800</option>
+      <option value="900">900</option>
+      <option value="1000">1000</option>
+    </datalist>
+    </p>
+    <canvas id="dibujito" width="300" height="300"></canvas>
+    <p>Así queda tu dibujo</p>
+  <input type="text"placeholder="Total Iteraciones"readonly"true" id="resultado" />
+  </body>
+  <script type="text/javascript" src="dibujito.js">
+  </script>
+</html>
