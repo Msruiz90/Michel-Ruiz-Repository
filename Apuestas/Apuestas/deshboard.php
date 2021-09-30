@@ -14,7 +14,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Apuestas Asdruital"/>
+    <meta name="description" content="Apuestas Michel Ruiz"/>
     <link rel="stylesheet"  href="css/estilos.css">
     <title>Apuestas</title>
 </head>
